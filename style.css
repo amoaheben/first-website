@@ -1,0 +1,94 @@
+body{
+    background-color: blue;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: aquamarine;
+    margin: 30px;
+}
+.logo{
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: aquamarine;
+    padding-top: 40px;
+}
+img{
+    width:100px ;
+    height: 400px;
+}    
+p{
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.link-container{
+    margin-left: auto;
+    transition: 100ms;
+}
+a{
+    color: crimson;
+}
+a:hover{
+    color: red;
+}
+.animate{
+    height: ;
+
+}
+.animate:hover{
+    width: 300px;
+    background-color: royalblue;
+}
+button{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 999px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: auto;
+    transition: 500ms;
+    margin-right: auto;
+}
+button:hover{
+    background-color: green;
+    color: coral;
+    transition: 500ms;
+}
+button:active{
+    background-color: yellow;
+}
+p{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+     width: 100vw;
+     height: 100vw;
+     background-color: chartreuse;
+    background-image: url("./image.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
